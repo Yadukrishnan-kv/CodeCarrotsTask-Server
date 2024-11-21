@@ -3,7 +3,7 @@ const cors=require('cors')
 const app=express()
 require("./Config/db")
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://code-carrots-task-client.vercel.app",
     methods:"*"
 }))
 app.use(express.json())
